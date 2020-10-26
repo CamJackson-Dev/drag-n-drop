@@ -1,5 +1,5 @@
 /* Trees Image - Pexels: https://www.pexels.com/photo/photo-of-trees-in-forest-3801030/ */
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 html {
   box-sizing: border-box;
@@ -14,13 +14,19 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
-  background-size: cover;
-  background-position: 50% 60%;
-  background-attachment: fixed;
+  background: black;
   color: white;
   font-family: Quicksand, sans-serif;
   overflow-y: hidden;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 h1 {
